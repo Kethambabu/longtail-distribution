@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Project data and generated artifacts
+data/
+train_original/
+test_original/
+train_generated/
+train_augmented/
+checkpoints/
+outputs/
+results/
+sample_30_per_class/
+sample_30_per_class (9)/
+
+# Specific archives and generated artifacts from the project root (as in screenshot)
+checkpoints2 (9).zip
+sample_30_per_class (9).zip
+
+# Generated sample images
+samples_epoch_*.png
+
+# Notebook and exported script snapshots (optional)
+notebookd7f7a3492b (2).ipynb
+notebook_code.txt
+
+# Large archives and model files
+*.zip
+*.tar
+*.tar.gz
+*.pt
+*.pth
+*.ckpt
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+
+# Environment files
+.env
+.env.*
